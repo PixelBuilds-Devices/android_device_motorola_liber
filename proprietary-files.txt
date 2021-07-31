@@ -282,6 +282,15 @@ vendor/lib64/libmulticam_video_optical_zoom.so
 vendor/lib64/libarcsoft_zoomtranslator_imp.so
 vendor/lib64/libfcell.so
 
+# IPA Firmware
+vendor/firmware/ipa_fws.b00
+vendor/firmware/ipa_fws.b01
+vendor/firmware/ipa_fws.b02
+vendor/firmware/ipa_fws.b03
+vendor/firmware/ipa_fws.b04
+vendor/firmware/ipa_fws.elf
+vendor/firmware/ipa_fws.mdt
+
 # OEM
 vendor/etc/vhw.xml
 
