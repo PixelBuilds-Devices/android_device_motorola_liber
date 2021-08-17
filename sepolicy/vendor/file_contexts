@@ -14,6 +14,3 @@
 # Motor HAL
 /sys/devices/platform/soc/a8c000.i2c/i2c-2/2-000d/akm09970/control/(/.*)?		                               u:object_r:sysfs_popup:s0
 /vendor/bin/hw/motorola\.hardware\.popup\.akm@1\.0-service                                                     u:object_r:hal_motpopup_default_exec:s0
-
-# Capsense
-/sys/class/capsense(/.*)?		                                                                               u:object_r:sysfs_capsense:s0

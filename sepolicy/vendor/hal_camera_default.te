@@ -1,3 +1,2 @@
-allow hal_camera_default hal_motpopup_default:binder transfer;
+allow hal_camera_default hal_motpopup_default:binder { transfer call };
 allow hal_camera_default hal_motpopup_hwservice:hwservice_manager find;
-allow hal_camera_default hal_motpopup_default:binder call;
