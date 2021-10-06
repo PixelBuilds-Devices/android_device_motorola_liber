@@ -151,4 +151,7 @@
          Used to decide if we show pulse settings -->
     <bool name="config_ledCanPulse">false</bool>
 
+    <!-- Enable system navigation keys. -->
+    <bool name="config_supportSystemNavigationKeys">true</bool>
+
 </resources>
