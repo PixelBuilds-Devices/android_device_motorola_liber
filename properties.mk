@@ -17,6 +17,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.physical.num=5
 
+# Chipset
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=QTI \
+    ro.soc.model=SM7150
+
 # HDR
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
