@@ -31,8 +31,8 @@ PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One Fusion+
 PRODUCT_MANUFACTURER := motorola
 
-PRODUCT_AAPT_CONFIG := xxxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
+PRODUCT_AAPT_CONFIG := normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
