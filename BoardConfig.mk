@@ -36,6 +36,9 @@ TARGET_MODULE_ALIASES += \
     wcd_spi_dlkm.ko:audio_wcd_spi.ko \
     wcd934x_dlkm.ko:audio_wcd934x.ko
 
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
