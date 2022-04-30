@@ -17,14 +17,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.physical.num=5
 
-# Fingerprint
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.fingerprint=goodix
-
-# FM
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.fm.use_audio_session=true
-
 # HDR
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qcom.hdr.config=/system/vendor/etc/hdr_tm_config.xml
