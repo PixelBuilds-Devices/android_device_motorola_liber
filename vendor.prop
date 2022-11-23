@@ -1,2 +1,6 @@
 # Bluetooth
 bluetooth.device.default_name=Motorola One Fusion+
+
+# Camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture
+vendor.camera.aux.packagelist=org.lineageos.aperture
