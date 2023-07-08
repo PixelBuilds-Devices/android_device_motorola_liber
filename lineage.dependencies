@@ -1,6 +1,31 @@
-[
-  {
-    "repository": "android_device_motorola_sm6150-common",
-    "target_path": "device/motorola/sm6150-common"
-  }
+[{
+                "repository": "device_motorola_sm6150-common",
+                "target_path": "device/motorola/sm6150-common",
+                "branch": "thirteen",
+                "remote": "SuperiorOS-Devices"
+        },
+        {
+		"repository": "vendor_motorola_liber",
+		"target_path": "vendor/motorola/liber",
+		"branch": "thirteen",
+		"remote": "SuperiorOS-Devices"
+	},
+        {
+                "repository": "vendor_motorola_sm6150-common",
+                "target_path": "vendor/motorola/sm6150-common",
+                "branch": "thirteen",
+                "remote": "SuperiorOS-Devices"
+        },
+	{
+		"repository": "kernel_motorola_sm6150",
+		"target_path": "kernel/motorola/sm6150",
+		"branch": "thirteen",
+		"remote": "SuperiorOS-Devices"
+	},
+	{
+		"repository": "DhineshCool/packages_apps_MotoActions",
+		"target_path": "packages/apps/MotoActions",
+		"branch": "thirteen",
+		"remote": "github"
+	}
 ]
