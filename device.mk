@@ -36,6 +36,9 @@ PRODUCT_PACKAGES += \
     SettingsResLiber \
     SystemUIResLiber
 
+PRODUCT_PACKAGES += \
+    Aperture
+
 # Audio
 PRODUCT_PACKAGES += \
     libgui_vendor
