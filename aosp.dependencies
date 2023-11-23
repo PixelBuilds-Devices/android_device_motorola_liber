@@ -1,25 +1,23 @@
-[{
-                "repository": "device_motorola_sm6150-common",
-                "target_path": "device/motorola/sm6150-common",
-                "branch": "unity",
-                "remote": "PixelBuilds-Devices"
+[
+        {
+                "repository": "android_device_motorola_sm6150-common",
+                "target_path": "device/motorola/sm6150-common"
         },
         {
-		"repository": "vendor_motorola_liber",
+		"repository": "android_vendor_motorola_liber",
 		"target_path": "vendor/motorola/liber",
 		"branch": "unity",
-		"remote": "PixelBuilds-Devices"
+                "remote":"pixelbuilds-blobs-gitlab"
 	},
         {
-                "repository": "vendor_motorola_sm6150-common",
+                "repository": "android_vendor_motorola_sm6150-common",
                 "target_path": "vendor/motorola/sm6150-common",
                 "branch": "unity",
-                "remote": "PixelBuilds-Devices"
+                "remote":"pixelbuilds-blobs-gitlab"
         },
 	{
-		"repository": "kernel_motorola_sm6150",
+		"repository": "android_kernel_motorola_sm6150",
 		"target_path": "kernel/motorola/sm6150",
-		"branch": "unity",
-		"remote": "PixelBuilds-Devices"
+		"branch": "unity"
 	}
 ]
