@@ -15,7 +15,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- wether device has a dedicated assistant key -->
-    <bool name="config_device_support_assistant_key">false</bool>
+    <bool name="config_device_support_assistant_key">true</bool>
 
     <!-- wether device has support for longpress fingerprint gesture -->
     <bool name="config_device_support_fingerprint_gestures">false</bool>
