@@ -23,6 +23,9 @@ $(call inherit-product, device/motorola/sm6150-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/liber/liber-vendor.mk)
 
+# Dolby
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 
