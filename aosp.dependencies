@@ -20,5 +20,11 @@
 		"repository": "android_kernel_motorola_sm6150",
 		"target_path": "kernel/motorola/sm6150",
 		"branch": "infinity"
-	}
+	},
+        {
+                "repository": "android_hardware_motorola_dolby",
+                "target_path": "hardware/motorola/dolby",
+                "branch": "infinity"
+        }
+
 ]
