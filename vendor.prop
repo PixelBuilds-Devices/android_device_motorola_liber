@@ -1,5 +1,9 @@
 # Bluetooth
 bluetooth.device.default_name=Motorola One Fusion+
 
+# Camera
+persist.vendor.camera.privapp.list=org.lineageos.aperture,org.codeaurora.snapcam
+vendor.camera.aux.packagelist=org.lineageos.aperture,org.codeaurora.snapcam
+
 # GFX
 ro.config.avoid_gfx_accel=true

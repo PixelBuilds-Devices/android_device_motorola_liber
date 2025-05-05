@@ -15,9 +15,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.camera.physical.num=5 \
-    persist.vendor.camera.privapp.list=org.lineageos.aperture \
-    vendor.camera.aux.packagelist=org.lineageos.aperture
+    persist.vendor.camera.expose.aux=1 \
+    persist.vendor.camera.physical.num=5
 
 # Chipset
 PRODUCT_PROPERTY_OVERRIDES += \
